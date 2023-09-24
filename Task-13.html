@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .con{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            position:fixed;
+ 
+
+
+        }
+        .con1{
+            height: 50px;
+            display:flex;
+            align-items: center;
+            justify-content: center;            
+            background-color: rgb(41, 123, 157);
+
+        }
+        .con2{
+            height: 50px;
+            display:flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgb(114, 119, 117);
+        }
+        .con3{
+            height:700px;
+            display: flex;
+            flex-direction: row;
+            background-color: #fff;
+
+
+        }
+        .left{
+            height: max-content;
+            width: 80%;
+            flex-basis: 80%;
+        }
+        .right{
+            
+            width: 20%;
+            flex-basis: 20%;
+            background-color: rgb(68, 67, 67);
+        }
+        .subcon21{
+            height: fit-content;
+            width: 30%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;  
+                     
+        }
+        .subcon22{
+            height: fit-content;
+            width: 15%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around; 
+        }
+        .link{
+            color: rgb(8, 8, 8);
+            text-decoration: none; 
+            font-size: 17px;
+            font-weight: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="con">
+        <div class="con1">
+            <h2>Ethunus Layout</h2>
+
+        </div>
+        <div class="con2">
+            <div class="subcon21">
+            <a href="#" class="link">Home</a>
+            <a href="#" class="link">Menu</a>
+            <a href="#" class="link">About</a>
+            <a href="#" class="link">Contact</a>
+        </div>
+        <div class="subcon22">
+            <a href="#" class="link">Signin</a>
+            <a href="#" class="link">SignUp</a>
+        </div>
+
+
+        </div>
+        <div class="con3">
+            <div class="left">
+
+            </div>
+            <div class="right">
+
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
